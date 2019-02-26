@@ -1,0 +1,7 @@
+<library path="lib/libserial_nodelet">
+  <class name="serial/SerialNodelet" type="serial::SerialNodelet" base_class_type="nodelet::Nodelet">
+  <description>
+  serial, used to send message
+  </description>
+  </class>
+</library>

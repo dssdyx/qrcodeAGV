@@ -1,0 +1,7 @@
+<library path="lib/libzbar_opencv_1_nodelet">
+  <class name="zbar_opencv_1/TrackcalNodelet" type="zbar_opencv_1::TrackcalNodelet" base_class_type="nodelet::Nodelet">
+  <description>
+  Tracker publish QRnext.
+  </description>
+  </class>
+</library>

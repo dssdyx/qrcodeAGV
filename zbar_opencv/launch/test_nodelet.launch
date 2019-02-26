@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="nodelet" type="nodelet" name="standalone_nodelet"  args="manager" output="screen"/>
+  <node pkg="nodelet" type="nodelet" name="TrackcalNodelet" args="load zbar_opencv_1/TrackcalNodelet standalone_nodelet"
+  output="screen"/>
+</launch>
